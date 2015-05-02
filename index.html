@@ -1,383 +1,386 @@
 <head>
     <link rel="stylesheet" href="https://raw.githubusercontent.com/stygiansabyss/NukaCode-Materialize-Base/master/css/base.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
 </head>
-<nav class="light-blue">
-    <div class="nav-wrapper">
-        <a href="" class="brand-logo">&nbsp; Materialize</a>
-        <a href="" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="">Sass</a></li>
-            <li><a href="">Components</a></li>
-            <li><a href="">Javascript</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="">Sass</a></li>
-            <li><a href="">Components</a></li>
-            <li><a href="">Javascript</a></li>
-            <li><a href="">Mobile</a></li>
-        </ul>
-    </div>
-</nav>
-
-<div class="container">
-    <h2>Grid</h2>
-    <div class="row">
-        <div class="col s1 grey lighten-1">s1</div>
-        <div class="col s11 grey lighten-2">s11</div>
-    </div>
-    <div class="row">
-        <div class="col s2 grey lighten-1">s2</div>
-        <div class="col s10 grey lighten-3">s10</div>
-    </div>
-    <div class="row">
-        <div class="col s3 grey lighten-1">s3</div>
-        <div class="col s9 grey lighten-4">s9</div>
-    </div>
-    <div class="row">
-        <div class="col s4 grey lighten-1">s4</div>
-        <div class="col s8 grey lighten-5">s8</div>
-    </div>
-    <div class="row">
-        <div class="col s5 grey lighten-1">s5</div>
-        <div class="col s7 grey lighten-4">s7</div>
-    </div>
-    <div class="row">
-        <div class="col s6 grey lighten-1">s6</div>
-        <div class="col s6 grey lighten-3">s6</div>
-    </div>
-    <div class="row">
-        <div class="col s12 grey lighten-2">s12</div>
-    </div>
-    <div class="row">
-        <div class="col s1 grey lighten-1">s1</div>
-        <div class="col s1 grey lighten-2">-</div>
-        <div class="col s1 grey lighten-3">-</div>
-        <div class="col s1 grey lighten-4">-</div>
-        <div class="col s1 grey lighten-5">-</div>
-        <div class="col s1 grey">-</div>
-        <div class="col s1 grey darken-1">-</div>
-        <div class="col s1 grey darken-2">-</div>
-        <div class="col s1 grey darken-3">-</div>
-        <div class="col s1 grey darken-4 white-text">-</div>
-        <div class="col s1 grey darken-5">-</div>
-        <div class="col s1 grey">-</div>
-    </div>
-    <hr>
-</div>
-
-<div class="container">
-    <h2>Buttons</h2>
-    <div class="row">
-        <div class="col s2">
-            <button class="btn">Default</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat teal">Flat</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-large">Large</button>
-        </div>
-        <div class="col s2">
-            <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-content-add"></i></a>
-        </div>
-    </div>
-    <hr>
-</div>
-
-<div class="container">
-    <h2>Colors</h2>
-    <div class="row">
-        <div class="col s2">
-            <button class="btn-flat teal">teal</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat yellow">yellow</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat orange">orange</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat red">red</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat blue">blue</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat green">green</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat lime">lime</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat grey">grey</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat purple">purple</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat pink">pink</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat amber">amber</button>
-        </div>
-        <div class="col s2">
-            <button class="btn-flat cyan">cyan</button>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col s2 grey white-text">lighten</div>
-        <div class="col s2 grey lighten-1">lighten-1</div>
-        <div class="col s2 grey lighten-2">lighten-2</div>
-        <div class="col s2 grey lighten-3">lighten-3</div>
-        <div class="col s2 grey lighten-4">lighten-4</div>
-        <div class="col s2 grey lighten-5">lighten-5</div>
-    </div>
-    <div class="row">
-        <div class="col s2 grey white-text">darken</div>
-        <div class="col s2 grey darken-1">darken-1</div>
-        <div class="col s2 grey darken-2">darken-2</div>
-        <div class="col s2 grey darken-3">darken-3</div>
-        <div class="col s2 grey darken-4">darken-4</div>
-        <div class="col s2 grey darken-5">darken-5</div>
-    </div>
-    <div class="row">
-        <div class="col s12 blue lighten-1 yellow-text">
-            <p>Append `-text` to any color for coloring text.</p>
-        </div>
-    </div>
-    <hr>
-</div>
-
-
-<div class="container">
-    <h2>Cards</h2>
-    <div class="row">
-        <div class="col s6">
-            <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">Card Title</span>
-                    <p>I am a very simple card. I am good at containing small bits of information.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s6">
-            <div class="card">
-                <div class="card-image">
-                    <img src="//placehold.it/400x170">
-                    <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-</div>
-
-<div class="container">
-    <h2>Lists &amp; Collections</h2>
-    <div class="row">
-        <div class="col s6">
-            <ul class="collection with-header">
-                <li class="collection-header">
-                    <h4>Heading</h4></li>
-                <li class="collection-item">Item</li>
-                <li class="collection-item">Item</li>
-                <li class="collection-item">Item</li>
-                <li class="collection-item">Item</li>
+<body>
+    <nav class="light-blue">
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo">&nbsp; Materialize</a>
+            <a href="" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">Sass</a></li>
+                <li><a href="">Components</a></li>
+                <li><a href="">Javascript</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="">Sass</a></li>
+                <li><a href="">Components</a></li>
+                <li><a href="">Javascript</a></li>
+                <li><a href="">Mobile</a></li>
             </ul>
         </div>
-        <div class="col s6">
-            <div class="collection"><a href="#" class="collection-item">Alvin</a>
-                <a href="#" class="collection-item active">Alvin</a>
-                <a href="#" class="collection-item">Alvin</a>
-                <a href="#" class="collection-item">Alvin</a>
-            </div>
-        </div>
-    </div>
-    <hr>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col s4">
-            <div class="card-panel">
-                1
-            </div>
-        </div>
-        <div class="col s4">
-            <div class="card-panel">
-                2
-            </div>
-        </div>
-        <div class="col s4">
-            <div class="card-panel">
-                3
-            </div>
-        </div>
-    </div>
-    <hr>
-</div>
-<div class="container">
-    <h2>Collapsible</h2>
-    <div class="row">
-        <div class="col s10 offset-s1">
-            <ul class="collapsible" data-collapsible="accordion">
-                <li>
-                    <div class="collapsible-header"><i class="mdi-image-filter-drama"></i>First</div>
-                    <div class="collapsible-body">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="collapsible-header"><i class="mdi-maps-place"></i>Second</div>
-                    <div class="collapsible-body">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="collapsible-header"><i class="mdi-social-whatshot"></i>Third</div>
-                    <div class="collapsible-body">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <hr>
-</div>
-
-<div class="container">
-    <h2>Modal</h2>
-    <div class="row center-align">
-        <!-- Modal Trigger -->
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Click to Open Modal</a>
-
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal">
-            <div class="modal-content">
-                <h4>Modal Header</h4>
-                <p>A bunch of text</p>
-            </div>
-            <div class="modal-footer">
-                <a href="#" class="waves-effect waves-green btn-flat modal-action modal-close">Agree</a>
-            </div>
-        </div>
-    </div>
-    <hr>
-</div>
-
-<div class="container">
-    <h2>Tabs</h2>
-    <div class="row">
+    </nav>
+    
+    <div class="container">
+        <h2>Grid</h2>
         <div class="row">
-            <div class="col s12">
-                <ul class="tabs">
-                    <li class="tab col s3"><a href="#test1">Tab 1</a></li>
-                    <li class="tab col s3"><a class="active" href="#test2">Tab 2</a></li>
-                    <li class="tab col s3"><a href="#test3">Tab 3</a></li>
-                    <li class="tab col s3"><a href="#test4">Tab 4</a></li>
+            <div class="col s1 grey lighten-1">s1</div>
+            <div class="col s11 grey lighten-2">s11</div>
+        </div>
+        <div class="row">
+            <div class="col s2 grey lighten-1">s2</div>
+            <div class="col s10 grey lighten-3">s10</div>
+        </div>
+        <div class="row">
+            <div class="col s3 grey lighten-1">s3</div>
+            <div class="col s9 grey lighten-4">s9</div>
+        </div>
+        <div class="row">
+            <div class="col s4 grey lighten-1">s4</div>
+            <div class="col s8 grey lighten-5">s8</div>
+        </div>
+        <div class="row">
+            <div class="col s5 grey lighten-1">s5</div>
+            <div class="col s7 grey lighten-4">s7</div>
+        </div>
+        <div class="row">
+            <div class="col s6 grey lighten-1">s6</div>
+            <div class="col s6 grey lighten-3">s6</div>
+        </div>
+        <div class="row">
+            <div class="col s12 grey lighten-2">s12</div>
+        </div>
+        <div class="row">
+            <div class="col s1 grey lighten-1">s1</div>
+            <div class="col s1 grey lighten-2">-</div>
+            <div class="col s1 grey lighten-3">-</div>
+            <div class="col s1 grey lighten-4">-</div>
+            <div class="col s1 grey lighten-5">-</div>
+            <div class="col s1 grey">-</div>
+            <div class="col s1 grey darken-1">-</div>
+            <div class="col s1 grey darken-2">-</div>
+            <div class="col s1 grey darken-3">-</div>
+            <div class="col s1 grey darken-4 white-text">-</div>
+            <div class="col s1 grey darken-5">-</div>
+            <div class="col s1 grey">-</div>
+        </div>
+        <hr>
+    </div>
+    
+    <div class="container">
+        <h2>Buttons</h2>
+        <div class="row">
+            <div class="col s2">
+                <button class="btn">Default</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat teal">Flat</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-large">Large</button>
+            </div>
+            <div class="col s2">
+                <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-content-add"></i></a>
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    <div class="container">
+        <h2>Colors</h2>
+        <div class="row">
+            <div class="col s2">
+                <button class="btn-flat teal">teal</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat yellow">yellow</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat orange">orange</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat red">red</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat blue">blue</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat green">green</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat lime">lime</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat grey">grey</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat purple">purple</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat pink">pink</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat amber">amber</button>
+            </div>
+            <div class="col s2">
+                <button class="btn-flat cyan">cyan</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s2 grey white-text">lighten</div>
+            <div class="col s2 grey lighten-1">lighten-1</div>
+            <div class="col s2 grey lighten-2">lighten-2</div>
+            <div class="col s2 grey lighten-3">lighten-3</div>
+            <div class="col s2 grey lighten-4">lighten-4</div>
+            <div class="col s2 grey lighten-5">lighten-5</div>
+        </div>
+        <div class="row">
+            <div class="col s2 grey white-text">darken</div>
+            <div class="col s2 grey darken-1">darken-1</div>
+            <div class="col s2 grey darken-2">darken-2</div>
+            <div class="col s2 grey darken-3">darken-3</div>
+            <div class="col s2 grey darken-4">darken-4</div>
+            <div class="col s2 grey darken-5">darken-5</div>
+        </div>
+        <div class="row">
+            <div class="col s12 blue lighten-1 yellow-text">
+                <p>Append `-text` to any color for coloring text.</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    
+    <div class="container">
+        <h2>Cards</h2>
+        <div class="row">
+            <div class="col s6">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="//placehold.it/400x170">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    <div class="container">
+        <h2>Lists &amp; Collections</h2>
+        <div class="row">
+            <div class="col s6">
+                <ul class="collection with-header">
+                    <li class="collection-header">
+                        <h4>Heading</h4></li>
+                    <li class="collection-item">Item</li>
+                    <li class="collection-item">Item</li>
+                    <li class="collection-item">Item</li>
+                    <li class="collection-item">Item</li>
                 </ul>
             </div>
-            <div id="test1" class="col s12 center-align">
-                <p>This is the content for Tab 1</p>
-            </div>
-            <div id="test2" class="col s12 center-align">
-                <p>This is the content for Tab 2..</p>
-            </div>
-            <div id="test3" class="col s12 center-align">
-                <p>This is the content for Tab 3..</p>
-            </div>
-            <div id="test4" class="col s12 center-align">
-                <p>This is the content for Tab 4!</p>
+            <div class="col s6">
+                <div class="collection"><a href="#" class="collection-item">Alvin</a>
+                    <a href="#" class="collection-item active">Alvin</a>
+                    <a href="#" class="collection-item">Alvin</a>
+                    <a href="#" class="collection-item">Alvin</a>
+                </div>
             </div>
         </div>
-
+        <hr>
     </div>
-    <hr>
-</div>
-
-<div class="container">
-    <h2>Preloaders</h2>
-    <div class="row">
-        <div class="col s6">
-            <h4>Progress</h4>
-            <div class="progress">
-                <div class="indeterminate"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col s4">
+                <div class="card-panel">
+                    1
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card-panel">
+                    2
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card-panel">
+                    3
+                </div>
             </div>
         </div>
-
-        <div class="col s6">
-            <h4>Circluar</h4>
-
-            <div class="center-align">
-                <div class="preloader-wrapper big active">
-                    <div class="spinner-layer spinner-blue-only">
-                        <div class="circle-clipper left">
-                            <div class="circle"></div>
+        <hr>
+    </div>
+    <div class="container">
+        <h2>Collapsible</h2>
+        <div class="row">
+            <div class="col s10 offset-s1">
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header"><i class="mdi-image-filter-drama"></i>First</div>
+                        <div class="collapsible-body">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="mdi-maps-place"></i>Second</div>
+                        <div class="collapsible-body">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="mdi-social-whatshot"></i>Third</div>
+                        <div class="collapsible-body">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    <div class="container">
+        <h2>Modal</h2>
+        <div class="row center-align">
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Click to Open Modal</a>
+    
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="waves-effect waves-green btn-flat modal-action modal-close">Agree</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    <div class="container">
+        <h2>Tabs</h2>
+        <div class="row">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s3"><a href="#test1">Tab 1</a></li>
+                        <li class="tab col s3"><a class="active" href="#test2">Tab 2</a></li>
+                        <li class="tab col s3"><a href="#test3">Tab 3</a></li>
+                        <li class="tab col s3"><a href="#test4">Tab 4</a></li>
+                    </ul>
+                </div>
+                <div id="test1" class="col s12 center-align">
+                    <p>This is the content for Tab 1</p>
+                </div>
+                <div id="test2" class="col s12 center-align">
+                    <p>This is the content for Tab 2..</p>
+                </div>
+                <div id="test3" class="col s12 center-align">
+                    <p>This is the content for Tab 3..</p>
+                </div>
+                <div id="test4" class="col s12 center-align">
+                    <p>This is the content for Tab 4!</p>
+                </div>
+            </div>
+    
+        </div>
+        <hr>
+    </div>
+    
+    <div class="container">
+        <h2>Preloaders</h2>
+        <div class="row">
+            <div class="col s6">
+                <h4>Progress</h4>
+                <div class="progress">
+                    <div class="indeterminate"></div>
+                </div>
+            </div>
+    
+            <div class="col s6">
+                <h4>Circluar</h4>
+    
+                <div class="center-align">
+                    <div class="preloader-wrapper big active">
+                        <div class="spinner-layer spinner-blue-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+    
             </div>
-
         </div>
-    </div>
-    <hr>
-</div>
-
-<div class="container">
-    <h2>Pagination</h2>
-    <div class="row">
-        <div class="col s12">
-            <ul class="pagination">
-    <li class="disabled"><a href="#!"><i class="mdi-navigation-chevron-left"></i></a></li>
-    <li class="active"><a href="#!">1</a></li>
-    <li class="waves-effect"><a href="#!">2</a></li>
-    <li class="waves-effect"><a href="#!">3</a></li>
-    <li class="waves-effect"><a href="#!">4</a></li>
-    <li class="waves-effect"><a href="#!">5</a></li>
-    <li class="waves-effect"><a href="#!"><i class="mdi-navigation-chevron-right"></i></a></li>
-  </ul>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row center-align">
         <hr>
-        <h2><a href="http://www.codeply.com/go/0XQk5neaJu">Edit on Codeply</a></h2>
     </div>
-</div>
-
-<footer class="page-footer light-blue darken-1">
+    
     <div class="container">
+        <h2>Pagination</h2>
         <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                </ul>
+            <div class="col s12">
+                <ul class="pagination">
+        <li class="disabled"><a href="#!"><i class="mdi-navigation-chevron-left"></i></a></li>
+        <li class="active"><a href="#!">1</a></li>
+        <li class="waves-effect"><a href="#!">2</a></li>
+        <li class="waves-effect"><a href="#!">3</a></li>
+        <li class="waves-effect"><a href="#!">4</a></li>
+        <li class="waves-effect"><a href="#!">5</a></li>
+        <li class="waves-effect"><a href="#!"><i class="mdi-navigation-chevron-right"></i></a></li>
+      </ul>
             </div>
         </div>
     </div>
-    <div class="footer-copyright">
+    
+    <div class="container">
+        <div class="row center-align">
+            <hr>
+            <h2><a href="http://www.codeply.com/go/0XQk5neaJu">Edit on Codeply</a></h2>
+        </div>
+    </div>
+    
+    <footer class="page-footer light-blue darken-1">
         <div class="container">
-            © 2015 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</footer>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2015 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+</body>

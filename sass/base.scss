@@ -8,6 +8,7 @@
 // Variables;
 @import "../../materialize/sass/components/variables";
 @import "../../../../resources/assets/sass/variables";
+@import "components/variables";
 @import "../../../../resources/assets/sass/colors";
 
 // Reset
@@ -15,6 +16,7 @@
 
 // components
 @import "../../materialize/sass/components/global";
+@import "components/global";
 @import "../../materialize/sass/components/icons-material-design";
 @import "../../materialize/sass/components/grid";
 @import "../../materialize/sass/components/navbar";
